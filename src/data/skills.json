@@ -1,0 +1,58 @@
+[
+    {
+        "title": "AI & Machine Learning",
+        "icon": "Brain",
+        "skills": [
+            "LLMs & RAG",
+            "LangChain",
+            "OpenAI API",
+            "Computer Vision",
+            "OCR (Tesseract)",
+            "TensorFlow / PyTorch",
+            "Vector Databases"
+        ],
+        "color": "text-purple-500"
+    },
+    {
+        "title": "Backend Development",
+        "icon": "Server",
+        "skills": [
+            "Python (Flask/Django)",
+            "Node.js",
+            "Express.js",
+            "REST APIs",
+            "MongoDB",
+            "PostgreSQL",
+            "Microservices"
+        ],
+        "color": "text-indigo-500"
+    },
+    {
+        "title": "Frontend Development",
+        "icon": "Code",
+        "skills": [
+            "React.js",
+            "Next.js",
+            "Tailwind CSS",
+            "Redux",
+            "HTML5 / CSS3",
+            "JavaScript (ES6+)",
+            "TypeScript"
+        ],
+        "color": "text-blue-500"
+    },
+    {
+        "title": "Tools & DevOps",
+        "icon": "Wrench",
+        "skills": [
+            "Git / GitHub",
+            "Docker",
+            "AWS",
+            "Linux",
+            "Postman",
+            "VS Code",
+            "Jupyter Notebooks"
+        ],
+        "color": "text-pink-500"
+    }
+]
