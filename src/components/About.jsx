@@ -57,10 +57,10 @@ const About = () => {
                             Bridging the Gap Between <span className="text-indigo-600 dark:text-indigo-400">AI Research</span> & <span className="text-purple-600 dark:text-purple-400">Production Systems</span>
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                            I am a Full Stack Developer and AI Engineer with a strong track record of delivering high-impact solutions in challenging environments. Currently working with <strong className="text-gray-900 dark:text-white">DRDO</strong>, I specialize in automating complex workflows using cutting-edge AI technologies like Large Language Models (LLMs), RAG pipelines, and Computer Vision.
+                            I am an AI Engineer specializing in Large Language Model (LLM) applications, Retrieval-Augmented Generation (RAG), NLP, and AI-powered document intelligence systems with 2.6+ years of industry experience. Currently working with <strong className="text-gray-900 dark:text-white">DRDO</strong>, I build end-to-end AI automation solutions by integrating deep learning models with scalable backend architectures.
                         </p>
                         <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                            My expertise lies in building intelligent systems that solve real-world problems—from developing document verification tools using OCR and NLP to creating scalable web applications with the MERN stack. I am passionate about leveraging AI to drive efficiency and innovation.
+                            My expertise lies in developing production-ready AI services using PyTorch, Flask APIs, and vector search systems. From building conversational AI agents and semantic search pipelines to advanced OCR workflows, I am passionate about leveraging AI for real-world data processing and driving operational efficiency.
                         </p>
 
                         <div className="grid grid-cols-2 gap-4">

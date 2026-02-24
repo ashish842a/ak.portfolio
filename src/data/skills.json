@@ -1,15 +1,15 @@
 [
     {
-        "title": "AI & Machine Learning",
+        "title": "Machine Learning & AI",
         "icon": "Brain",
         "skills": [
             "LLMs & RAG",
+            "Deep Learning",
+            "NLP & Document AI",
             "LangChain",
-            "OpenAI API",
-            "Computer Vision",
-            "OCR (Tesseract)",
-            "TensorFlow / PyTorch",
-            "Vector Databases"
+            "Vector Embeddings",
+            "Tesseract / EasyOCR",
+            "PyTorch / Transformers"
         ],
         "color": "text-purple-500"
     },
@@ -17,13 +17,13 @@
         "title": "Backend Development",
         "icon": "Server",
         "skills": [
-            "Python (Flask/Django)",
+            "Python (Flask)",
             "Node.js",
-            "Express.js",
             "REST APIs",
+            "JSON APIs",
+            "MySQL",
             "MongoDB",
-            "PostgreSQL",
-            "Microservices"
+            "Vector DBs (FAISS, ChromaDB)"
         ],
         "color": "text-indigo-500"
     },
@@ -31,27 +31,26 @@
         "title": "Frontend Development",
         "icon": "Code",
         "skills": [
-            "React.js",
-            "Next.js",
+            "JavaScript",
+            "React",
+            "HTML / CSS",
             "Tailwind CSS",
-            "Redux",
-            "HTML5 / CSS3",
-            "JavaScript (ES6+)",
-            "TypeScript"
+            "Responsive Design",
+            "UI/UX Integration"
         ],
         "color": "text-blue-500"
     },
     {
-        "title": "Tools & DevOps",
+        "title": "Tools & Other Tech",
         "icon": "Wrench",
         "skills": [
             "Git / GitHub",
-            "Docker",
-            "AWS",
             "Linux",
-            "Postman",
-            "VS Code",
-            "Jupyter Notebooks"
+            "Groq API",
+            "Hugging Face",
+            "NumPy / Pandas",
+            "Prompt Engineering",
+            "AI Workflow Automation"
         ],
         "color": "text-pink-500"
     }

@@ -33,7 +33,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:block">
-                        <div className="ml-10 flex items-baseline space-x-8">
+                        <div className="ml-10 flex items-center space-x-8">
                             {navLinks.map((link) => (
                                 <a
                                     key={link.name}
@@ -43,6 +43,14 @@ const Navbar = () => {
                                     {link.name}
                                 </a>
                             ))}
+                            <a
+                                href="https://drive.google.com/file/d/1ifD45IyBHq9qmyhfa8v-SObUWcXSIotD/view?usp=drive_link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 shadow-sm"
+                            >
+                                Resume
+                            </a>
                         </div>
                     </div>
 
@@ -65,7 +73,7 @@ const Navbar = () => {
                         exit={{ opacity: 0, y: -20 }}
                         className="md:hidden bg-white dark:bg-gray-900 shadow-xl"
                     >
-                        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
                             {navLinks.map((link) => (
                                 <a
                                     key={link.name}
@@ -76,6 +84,16 @@ const Navbar = () => {
                                     {link.name}
                                 </a>
                             ))}
+                            <div className="pt-2 pb-1">
+                                <a
+                                    href="https://drive.google.com/file/d/1ifD45IyBHq9qmyhfa8v-SObUWcXSIotD/view?usp=drive_link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-indigo-600 hover:bg-indigo-700 text-white block px-3 py-2 rounded-md text-base font-medium shadow-sm text-center"
+                                >
+                                    Resume
+                                </a>
+                            </div>
                         </div>
                     </motion.div>
                 )}

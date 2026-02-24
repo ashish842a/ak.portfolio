@@ -6,21 +6,21 @@ const Experience = () => {
     const experiences = [
         {
             role: 'AI Engineer',
-            company: 'Defence Research and Development Organisation (DRDO)',
+            company: 'DRDO, New Delhi',
             period: 'Jul 2025 - Present',
-            description: 'AI Engineer focused on automating manual processes using AI. Working on Chatbots. Skills: LLMs, RAG, Vector Embeddings, Vector Searching, Python, Flask.',
+            description: 'Designed and implemented LLM-powered automation systems and RAG pipelines integrating vector embeddings (FAISS/ChromaDB). Developed AI chatbots with Flask-based APIs to improve operational workflow efficiency.',
         },
         {
-            role: 'Full Stack AI Engineer',
-            company: 'Defence Research and Development Organisation (DRDO)',
+            role: 'AI Engineer - Document Intelligence Systems',
+            company: 'DRDO Project - NIT Raipur',
             period: 'Dec 2023 - Jun 2025',
-            description: 'Automated Intelligent Document Processing Tool for Verification. Utilized NLP, LLM, OCR (Tesseract, EasyOCR), RAG, and GANs for image enhancement. Applied ML to optimize data validation and streamlined document processing workflows.',
+            description: 'Designed an Intelligent Document Processing pipeline for automated biodata verification using PyTorch, Tesseract, and EasyOCR. Applied GAN-based enhancements and developed scalable backend APIs with React frontend.',
         },
         {
-            role: 'Full Stack Developer',
-            company: 'Innobimbinfotech',
+            role: 'Fullstack Developer',
+            company: 'IBI Infotech Pvt Ltd',
             period: 'Jul 2023 - Dec 2023',
-            description: 'Developed a dynamic Property Management System and a Hackathon platform using Node.js, EJS, and MongoDB. Built a React-based admin dashboard for monitoring gas concentration.',
+            description: 'Developed dynamic Property Management Systems and Hackathon platforms enabling structured user interaction. Tech stack included Node.js, EJS, Multer, Nodemailer, and MongoDB.',
         },
     ];
 

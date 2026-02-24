@@ -37,7 +37,7 @@ const Hero = () => {
                         transition={{ duration: 0.5 }}
                     >
                         <h2 className="text-sm uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-semibold mb-4">
-                            Full Stack Developer & AI Engineer
+                            AI Engineer
                         </h2>
                     </motion.div>
 
@@ -56,8 +56,8 @@ const Hero = () => {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="mt-4 max-w-2xl mx-auto text-xl text-gray-600 dark:text-gray-300 mb-10"
                     >
-                        Building Intelligent Systems & Modern Web Applications.
-                        Passionate about turning complex problems into elegant solutions.
+                        Building Intelligent Systems & AI-powered Automation.
+                        Specializing in Large Language Models (LLMs), RAG, and NLP.
                     </motion.p>
 
                     <motion.div

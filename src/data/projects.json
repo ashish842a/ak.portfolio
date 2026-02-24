@@ -1,53 +1,42 @@
 [
     {
-        "title": "Intelligent Doc Verifier",
-        "description": "Automated document verification system using OCR and NLP. Enhances image quality with GANs and validates data against databases.",
-        "image": "https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        "title": "Patient Management Chatbot",
+        "description": "LLM-powered healthcare assistant using RAG architecture for semantic retrieval of patient records and low-latency inference with Groq API.",
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
         "tech": [
             "Python",
-            "OCR",
-            "LLM",
+            "Flask",
+            "LLM APIs",
+            "RAG",
+            "Vector Search"
+        ],
+        "github": "https://github.com/ashish842a",
+        "demo": "#"
+    },
+    {
+        "title": "Farmer's Space",
+        "description": "AI-Driven Equipment Recommendation Platform enabling automated discovery, booking, and search ranking workflows.",
+        "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        "tech": [
             "React",
-            "Flask"
-        ],
-        "github": "https://github.com/ashish842a",
-        "demo": "#"
-    },
-    {
-        "title": "AI Chatbot Assistant",
-        "description": "Advanced chatbot utilizing RAG and Vector Search to provide context-aware responses and automate manual queries.",
-        "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-        "tech": [
-            "LangChain",
-            "Vector DB",
-            "OpenAI",
-            "Next.js"
-        ],
-        "github": "https://github.com/ashish842a",
-        "demo": "#"
-    },
-    {
-        "title": "Property Mgmt System",
-        "description": "Dynamic platform for property management enabling user interactions, built with Node.js and MongoDB.",
-        "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-        "tech": [
             "Node.js",
             "MongoDB",
-            "EJS",
-            "Express"
+            "REST APIs",
+            "Data Processing"
         ],
         "github": "https://github.com/ashish842a",
         "demo": "#"
     },
     {
-        "title": "IoT Gas Monitor",
-        "description": "Real-time admin dashboard for monitoring gas concentration levels, visualized with React.",
-        "image": "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        "title": "Divine Restaurant",
+        "description": "Restaurant Management System integrating an AI Chatbot for menu queries, booking assistance, and table reservations.",
+        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
         "tech": [
             "React",
-            "IoT",
-            "Chart.js",
-            "WebSockets"
+            "Node.js",
+            "MongoDB",
+            "AI Chatbot",
+            "Nodemailer"
         ],
         "github": "https://github.com/ashish842a",
         "demo": "#"

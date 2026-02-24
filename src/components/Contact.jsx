@@ -111,6 +111,16 @@ const Contact = () => {
 
                             <div className="flex items-center space-x-4">
                                 <div className="bg-indigo-100 dark:bg-indigo-900/30 p-3 rounded-full text-indigo-600 dark:text-indigo-400">
+                                    <Phone size={24} />
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
+                                    <p className="text-gray-600 dark:text-gray-400">+91 9135160842</p>
+                                </div>
+                            </div>
+
+                            <div className="flex items-center space-x-4">
+                                <div className="bg-indigo-100 dark:bg-indigo-900/30 p-3 rounded-full text-indigo-600 dark:text-indigo-400">
                                     <MapPin size={24} />
                                 </div>
                                 <div>

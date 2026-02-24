@@ -22,9 +22,9 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/ashish-kumar-98482b1a9/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                             <Linkedin size={24} />
                         </a>
-                        <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                        {/* <a href="#" className="text-gray-400 hover:text-white transition-colors">
                             <Twitter size={24} />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
