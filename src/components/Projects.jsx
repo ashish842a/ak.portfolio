@@ -27,7 +27,7 @@ const Projects = () => {
                     />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project, index) => (
                         <motion.div
                             key={index}
@@ -35,20 +35,20 @@ const Projects = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1, duration: 0.5 }}
-                            className="bg-gray-50 dark:bg-gray-700 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 group"
+                            className="bg-gray-50/50 dark:bg-gray-900/40 border border-gray-200/50 dark:border-gray-800/50 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-500 group flex flex-col h-full backdrop-blur-sm"
                         >
-                            <div className="relative h-48 overflow-hidden">
+                            <div className="relative h-52 overflow-hidden">
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                                 />
-                                <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+                                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                                     <a
                                         href={project.github}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="p-2 bg-white rounded-full text-gray-900 hover:text-indigo-600 transition-colors"
+                                        className="p-3 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white hover:text-indigo-600 transition-all duration-300 border border-white/20"
                                         title="View Code"
                                     >
                                         <Github size={20} />
@@ -57,31 +57,51 @@ const Projects = () => {
                                         href={project.demo}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="p-2 bg-white rounded-full text-gray-900 hover:text-indigo-600 transition-colors"
+                                        className="p-3 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white hover:text-indigo-600 transition-all duration-300 border border-white/20"
                                         title="View Demo"
                                     >
                                         <ExternalLink size={20} />
                                     </a>
                                 </div>
+                                {project.subtitle && (
+                                    <div className="absolute bottom-3 left-4 right-4 translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                                        <span className="text-[9px] font-bold text-white/90 uppercase tracking-[0.2em] bg-indigo-600/80 backdrop-blur-md px-3 py-1 rounded-full border border-white/10 italic">
+                                            {project.subtitle}
+                                        </span>
+                                    </div>
+                                )}
                             </div>
 
-                            <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                            <div className="p-6 flex flex-col flex-grow">
+                                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 group-hover:text-indigo-500 transition-colors line-clamp-2 min-h-[3.5rem]">
                                     {project.title}
                                 </h3>
-                                <p className="text-gray-600 dark:text-gray-300 mb-6 text-sm line-clamp-3">
-                                    {project.description}
-                                </p>
 
-                                <div className="flex flex-wrap gap-2 mt-auto">
-                                    {project.tech.map((tag, tagIndex) => (
+                                {project.points && (
+                                    <ul className="space-y-2.5 mb-6 flex-grow">
+                                        {project.points.map((point, pIndex) => (
+                                            <li key={pIndex} className="text-gray-600 dark:text-gray-400 text-xs flex gap-2">
+                                                <span className="text-indigo-500 mt-1 flex-shrink-0">•</span>
+                                                <span className="leading-relaxed line-clamp-4">{point}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
+
+                                <div className="flex flex-wrap gap-1.5 mt-auto pt-4 border-t border-gray-100 dark:border-gray-800/50">
+                                    {project.tech.slice(0, 6).map((tag, tagIndex) => (
                                         <span
                                             key={tagIndex}
-                                            className="px-3 py-1 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 text-xs font-medium rounded-full"
+                                            className="px-2 py-1 bg-indigo-500/5 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 text-[9px] font-bold rounded-md border border-indigo-500/10"
                                         >
                                             {tag}
                                         </span>
                                     ))}
+                                    {project.tech.length > 6 && (
+                                        <span className="text-[9px] font-bold text-gray-400 dark:text-gray-600 px-1 py-1">
+                                            +{project.tech.length - 6}
+                                        </span>
+                                    )}
                                 </div>
                             </div>
                         </motion.div>

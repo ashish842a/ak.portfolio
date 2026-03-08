@@ -1,44 +1,70 @@
 [
     {
+        "title": "AI Document Verification Platform",
+        "subtitle": "Docs Intelligence System",
+        "description": "AI-driven document verification system to automate validation of large-scale candidate application documents using LLMs, VQA, and OCR.",
+        "points": [
+            "Automated validation of large-scale documents using LLMs, VQA models, and OCR pipelines.",
+            "Built RAG workflows with LangChain and vector embeddings for contextual understanding.",
+            "Processed 15,000+ documents within 2 days with 90%+ accuracy, reducing weeks of manual work."
+        ],
+        "image": "/ak.portfolio/projects/document_verification.png",
+        "tech": [
+            "Python",
+            "Flask",
+            "LangChain",
+            "LLMs",
+            "RAG",
+            "OCR",
+            "OpenCV",
+            "Vector DB"
+        ],
+        "github": "https://github.com/ashish842a",
+        "demo": "#"
+    },
+    {
+        "title": "AI Customer Support Chatbot",
+        "subtitle": "AI Advertisement Chatbot",
+        "description": "Intelligent AI chatbot to handle customer queries related to advertisement services, reducing dependency on manual support.",
+        "points": [
+            "Implemented a RAG conversational system for retrieving information from advertisement knowledge bases.",
+            "Integrated LLM inference with vector embeddings for accurate and context-aware responses.",
+            "Enabled automated query resolution through AI-driven conversational workflows."
+        ],
+        "image": "/ak.portfolio/projects/ad_chatbot.png",
+        "tech": [
+            "Python",
+            "Flask",
+            "LangChain",
+            "LLMs",
+            "RAG",
+            "OCR",
+            "MySQL",
+            "Vector Embeddings"
+        ],
+        "github": "https://github.com/ashish842a",
+        "demo": "#"
+    },
+    {
         "title": "Patient Management Chatbot",
-        "description": "LLM-powered healthcare assistant using RAG architecture for semantic retrieval of patient records and low-latency inference with Groq API.",
-        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        "subtitle": "Healthcare AI assistant",
+        "description": "LLM-powered healthcare assistant using RAG architecture for semantic retrieval of patient records with low-latency Groq API.",
+        "points": [
+            "Developed an LLM-powered assistant using RAG to help doctors efficiently access patient history.",
+            "Implemented semantic search using vector embeddings and structured medical data indexing.",
+            "Integrated Groq API for low-latency LLM inference enabling real-time patient data summarization."
+        ],
+        "image": "/ak.portfolio/projects/patient_chatbot.png",
         "tech": [
             "Python",
             "Flask",
             "LLM APIs",
             "RAG",
-            "Vector Search"
+            "Pandas",
+            "Vector Search",
+            "Groq API"
         ],
         "github": "https://github.com/ashish842a",
-        "demo": "#"
-    },
-    {
-        "title": "Farmer's Space",
-        "description": "AI-Driven Equipment Recommendation Platform enabling automated discovery, booking, and search ranking workflows.",
-        "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-        "tech": [
-            "React",
-            "Node.js",
-            "MongoDB",
-            "REST APIs",
-            "Data Processing"
-        ],
-        "github": "https://github.com/ashish842a",
-        "demo": "#"
-    },
-    {
-        "title": "Divine Restaurant",
-        "description": "Restaurant Management System integrating an AI Chatbot for menu queries, booking assistance, and table reservations.",
-        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-        "tech": [
-            "React",
-            "Node.js",
-            "MongoDB",
-            "AI Chatbot",
-            "Nodemailer"
-        ],
-        "github": "https://github.com/ashish842a",
-        "demo": "#"
+        "demo": "https://patient-chatbot-ai.vercel.app/"
     }
 ]
