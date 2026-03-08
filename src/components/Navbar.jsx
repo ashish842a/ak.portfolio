@@ -86,7 +86,7 @@ const Navbar = () => {
                             ))}
                             <div className="pt-2 pb-1">
                                 <a
-                                    href="https://drive.google.com/file/d/1ifD45IyBHq9qmyhfa8v-SObUWcXSIotD/view?usp=drive_link"
+                                    href="https://drive.google.com/file/d/1dypVSJEsh7gGZQDEMa9FIHwZvsdfQNHg/view?usp=sharing"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-indigo-600 hover:bg-indigo-700 text-white block px-3 py-2 rounded-md text-base font-medium shadow-sm text-center"
